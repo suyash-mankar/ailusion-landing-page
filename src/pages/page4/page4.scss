@@ -1,0 +1,35 @@
+.page4_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  padding: 5%;
+  justify-content: space-between;
+
+  .page4_left_container {
+    width: 60%;
+    padding: 5%;
+
+    .page4_heading {
+      font-size: 3vw;
+      color: #fffefd;
+      font-weight: 700;
+      line-height: 3.5vw;
+    }
+
+    .page4_subtext {
+      font-weight: 100;
+      padding-right: 10%;
+      font-size: 1.7vw;
+      margin-top: 10px;
+      line-height: 2.5vw;
+    }
+  }
+  .page4_right_container {
+    width: 40%;
+
+    .page4_img {
+      width: 100%;
+    }
+  }
+}

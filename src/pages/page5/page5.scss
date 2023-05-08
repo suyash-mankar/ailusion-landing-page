@@ -1,0 +1,37 @@
+.page5_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+  padding: 5%;
+  padding-right: 0;
+  justify-content: space-between;
+
+  .page5_left_container {
+    width: 40%;
+
+    .page5_img {
+      width: 100%;
+    }
+  }
+
+  .page5_right_container {
+    width: 60%;
+    padding: 5%;
+
+    .page5_heading {
+      font-size: 3vw;
+      color: #fffefd;
+      font-weight: 700;
+      line-height: 3.5vw;
+    }
+
+    .page5_subtext {
+      font-weight: 100;
+      padding-right: 10%;
+      font-size: 1.7vw;
+      margin-top: 10px;
+      line-height: 2.5vw;
+    }
+  }
+}

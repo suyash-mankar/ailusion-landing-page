@@ -1,0 +1,33 @@
+.footer_container {
+  background: white;
+  color: black;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+
+  .footer_left_container {
+    width: 60%;
+    padding-left: 5%;
+
+    .logo_name_container {
+      display: flex;
+      align-items: center;
+
+      .company_name {
+        font-size: 2vw;
+        font-weight: 700;
+        padding-left: 2%;
+      }
+    }
+
+    .about_company {
+      margin-top: 20px;
+      color: #23283b;
+    }
+  }
+
+  .footer_right_container {
+    width: 40%;
+    padding-left: 5%;
+  }
+}
