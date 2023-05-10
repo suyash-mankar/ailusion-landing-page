@@ -4,7 +4,16 @@
   .navbar-nav {
     a {
       color: white;
+      font-family: "Encode Sans Expanded";
+      font-style: normal;
       font-weight: 500;
     }
+  }
+
+  .logo_text {
+    font-family: "Encode Sans Expanded";
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.085em;
   }
 }

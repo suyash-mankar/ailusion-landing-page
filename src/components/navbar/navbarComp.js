@@ -22,7 +22,7 @@ function NavbarComp() {
             className="d-inline-block align-top"
             style={{ marginRight: "25px" }}
           />
-          AILUSION
+          <span className="logo_text">AILUSION</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

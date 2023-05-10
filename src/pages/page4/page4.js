@@ -8,7 +8,16 @@ function Page4() {
       <div className="page4_left_container">
         <div className="page4_heading">
           Power of Technology elevates <br />
-          <span style={{ color: "#60E7FF" }}>ENTERTAINMENT</span>
+          <span
+            style={{
+              color: "#60E7FF",
+              fontFamily: "Montagu Slab",
+              fontWeight: 600,
+              letterSpacing: "0.4em",
+            }}
+          >
+            ENTERTAINMENT
+          </span>
         </div>
         <div className="page4_subtext">
           With expertise in immersive technology, out VR headset is designed to

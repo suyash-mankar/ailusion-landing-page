@@ -6,8 +6,10 @@ function page2() {
     <div className="page2_container">
       <div className="page2_text">
         Unleash imagination with{" "}
-        <span style={{ color: "#60E7FF" }}>AILusion</span> Virtual and Augmented
-        Reality’s immersive experience
+        <span style={{ color: "#60E7FF", fontWeight: 700, fontSize: "4vw" }}>
+          AILusion
+        </span>{" "}
+        Virtual and Augmented Reality’s immersive experience
       </div>
     </div>
   );

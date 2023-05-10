@@ -18,11 +18,36 @@ function Footer() {
         </div>
       </div>
       <div className="footer_right_container">
-        <div style={{ fontSize: "2.5vw" }}>Contact</div>
-        <div style={{ textDecoration: "underline", margin: "10px 0" }}>
+        <div
+          style={{
+            fontSize: "2.5vw",
+            fontFamily: "Montserrat",
+            fontStyle: "normal",
+            fontWeight: 600,
+          }}
+        >
+          Contact
+        </div>
+        <div
+          style={{
+            textDecoration: "underline",
+            margin: "10px 0",
+            fontFamily: "Montserrat",
+            fontStyle: "normal",
+            fontWeight: 500,
+          }}
+        >
           Call Us
         </div>
-        <div style={{ textDecoration: "underline", margin: "10px 0" }}>
+        <div
+          style={{
+            textDecoration: "underline",
+            margin: "10px 0",
+            fontFamily: "Montserrat",
+            fontStyle: "normal",
+            fontWeight: 500,
+          }}
+        >
           Mail Us
         </div>
       </div>

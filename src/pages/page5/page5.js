@@ -13,7 +13,16 @@ function page5() {
       <div className="page5_right_container">
         <div className="page5_heading">
           Power of Customer <br />
-          <span style={{ color: "#FD5555" }}>ENGAGEMENT</span>
+          <span
+            style={{
+              color: "#FD5555",
+              fontFamily: "Montagu Slab",
+              fontWeight: 600,
+              letterSpacing: "0.4em",
+            }}
+          >
+            ENGAGEMENT
+          </span>
         </div>
         <div className="page5_subtext">
           Our immersive technology solutions are the perfect tool for businesses

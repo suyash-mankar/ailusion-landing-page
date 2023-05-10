@@ -13,7 +13,15 @@ function page3() {
       <div className="page3_right_container">
         <div className="page3_heading">
           The power of <br />
-          <span style={{ color: "#FD5555" }}>IMAGINATION</span>
+          <span
+            style={{
+              color: "#FD5555",
+              letterSpacing: "0.4em",
+              fontWeight: 600,
+            }}
+          >
+            IMAGINATION
+          </span>
         </div>
         <div className="page3_subtext">
           Virtual reality's immersive experiences can transport you to boundless
