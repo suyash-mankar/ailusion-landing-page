@@ -39,3 +39,47 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .page1_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    padding: 5%;
+    padding-right: 0;
+    justify-content: space-between;
+
+    .page1_left_container {
+      width: 60%;
+      padding: 5%;
+
+      .page1_heading {
+        font-size: 3vw;
+        color: #fffefd;
+        line-height: 3.5vw;
+        font-family: "Syne";
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      .page1_subtext {
+        padding-right: 10%;
+        font-size: 1.7vw;
+        margin-top: 10px;
+        line-height: 2.5vw;
+        font-family: "Vazirmatn";
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+      }
+    }
+    .page1_right_container {
+      width: 40%;
+
+      .page1_img {
+        width: 100%;
+      }
+    }
+  }
+}

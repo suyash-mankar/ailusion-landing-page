@@ -13,6 +13,25 @@
     font-style: normal;
     font-weight: 400;
     line-height: 4rem;
+  }
+}
 
+@media only screen and (max-width: 992px) {
+  .page2_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 5%;
+
+    .page2_text {
+      font-size: 3.5vw;
+      text-align: center;
+      font-family: "Gruppo";
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   }
 }

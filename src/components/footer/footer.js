@@ -7,7 +7,7 @@ function Footer() {
     <div className="footer_container">
       <div className="footer_left_container">
         <div className="logo_name_container">
-          <img src={ailusion_logo_dark} alt="" style={{ width: "7vw" }} />
+          <img src={ailusion_logo_dark} alt="" className="logo_dark_img" />
           <div className="company_name"> AILUSION</div>
         </div>
         <div className="about_company">
@@ -18,38 +18,9 @@ function Footer() {
         </div>
       </div>
       <div className="footer_right_container">
-        <div
-          style={{
-            fontSize: "2.5vw",
-            fontFamily: "Montserrat",
-            fontStyle: "normal",
-            fontWeight: 600,
-          }}
-        >
-          Contact
-        </div>
-        <div
-          style={{
-            textDecoration: "underline",
-            margin: "10px 0",
-            fontFamily: "Montserrat",
-            fontStyle: "normal",
-            fontWeight: 500,
-          }}
-        >
-          Call Us
-        </div>
-        <div
-          style={{
-            textDecoration: "underline",
-            margin: "10px 0",
-            fontFamily: "Montserrat",
-            fontStyle: "normal",
-            fontWeight: 500,
-          }}
-        >
-          Mail Us
-        </div>
+        <div className="contact">Contact</div>
+        <div className="call_us">Call Us</div>
+        <div className="mail_us">Mail Us</div>
       </div>
     </div>
   );
