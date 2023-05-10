@@ -1,8 +1,8 @@
 import ailusion_logo from "./ailusion_logo.png";
-import page1_img from "./page1_img.png";
-import page3_img from "./page3_img.png";
-import page4_img from "./page3_img.png";
-import page6_img from "./page6_img.png";
+import page1_img from "./page1_img.webp";
+import page3_img from "./page3_img.webp";
+import page4_img from "./page3_img.webp";
+import page6_img from "./page6_img.webp";
 import ailusion_logo_dark from "./ailusion_logo_dark.png";
 
 export {

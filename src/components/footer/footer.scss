@@ -115,20 +115,25 @@
         font-weight: 600;
       }
 
-      .call_us {
-        text-decoration: underline;
-        margin: 10px 0;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
-      }
+      .call_mail_container {
+        display: flex;
 
-      .mail_us {
-        text-decoration: underline;
-        margin: 10px 0;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 500;
+        .call_us {
+          text-decoration: underline;
+          margin: 10px 0;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+          margin-right: 5%;
+        }
+
+        .mail_us {
+          text-decoration: underline;
+          margin: 10px 0;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 500;
+        }
       }
     }
   }

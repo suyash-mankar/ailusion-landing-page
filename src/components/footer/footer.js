@@ -19,8 +19,10 @@ function Footer() {
       </div>
       <div className="footer_right_container">
         <div className="contact">Contact</div>
-        <div className="call_us">Call Us</div>
-        <div className="mail_us">Mail Us</div>
+        <div className="call_mail_container">
+          <div className="call_us">Call Us</div>
+          <div className="mail_us">Mail Us</div>
+        </div>
       </div>
     </div>
   );
